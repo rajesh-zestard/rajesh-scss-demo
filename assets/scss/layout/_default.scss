@@ -1,0 +1,27 @@
+// css for WP-Admin
+#wpadminbar {
+	position: fixed;
+}
+
+.wrapper {
+	position: relative;
+	// display: grid;
+	// grid-template: 1fr auto / 1fr;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.main-container {
+	width: 100%;
+	align-self: start;
+}
+
+.slick-dots {
+	li {
+		padding: 0 rem(5px);
+	}
+}
